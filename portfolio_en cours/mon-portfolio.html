@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <meta name="author" content="Helene Sanchez">
+    <meta name="description" content="developpeur integrateur web">
+    <link rel="stylesheet" href="mon-portfolio.css">
+    <script src="https://kit.fontawesome.com/01b1c26b36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Hélène Sanchez</h1>
+        <nav>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#apropos">A propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="clear"></div>
+    </header>
+
+    <section id="pres" class="fondVert">
+        <img src="img/photo LN.jpg" alt="Photo de Hélène Sanchez" width="250px" height="250px">
+        <h2>Hélène Sanchez</h2>
+        <div class="trait"></div>
+        <h3>Développeuse intégratrice web</h3>
+    </section>
+
+    <section id="portfolio">
+        <h2 class="titre">Portfolio</h2>
+        <div class="trait"></div>
+        <div class="flex">
+            <div>
+            <a href="autres-projets/formulaire.html" target="_blank">
+            <img src="img/cabin.png" alt="Cabin">
+            </a>
+            </div>
+        <div>
+              <a href="autres-projets/TP03-créer-un-portfolio/index.html" target="_blank">
+            <img src="img/cake.png" alt="cake">
+        </a>
+            </div>
+            <div>
+                <a href="autres-projets/TP02-intégrer-une maquette-en-HTML5/indextp02.html" target="_blank">
+                <img src="img/circus.png" alt="circus">
+            </a>
+        </div>
+        </div>
+        <!-- <div class="flex">
+            <div>
+                <img class="invalid" src="img/game.png" title="en construction" alt="game">
+            </div>
+            <div>
+                <img class="invalid"
+                src="img/safe.png" title="en construction" alt="safe">
+            </div>
+            <div>
+                <img class="invalid"
+                src="img/submarine.png" title="en construction" alt="submarine">
+            </div>
+        </div> -->
+    </section>
+
+    <section id="apropos" class="fondVert">
+        <h2 class="titre">A propos</h2>
+        <div class="trait"></div>
+        <div class="flex">
+            <div>
+                <h3>Formations</h3>
+        <ul>
+            <li>2022 I 2023 : développeuse intégratrice web - titre RNCP niv.5 - Ifocop Paris 11
+            </li><br>
+            <li>2022 : initiation HTML5 et CSS3 - Digital School - Cergy
+            </li><br>
+            <li>2015 : Master acheteur leader - Ecole Supérieure des Acheteurs Professionnels (ESAP) - Val de Fontenay
+            </li><br>
+            <li>2004 : BTS communication et industries graphiques - VAE en partenariat avec Ecole Estienne - Paris 13
+            </li>
+        </ul>
+        
+            </div>
+            <div>
+                <h3>Expérience</h3>
+                <p>Mon métier d'acheteuse était riche et varié :<br>
+            - J'ai participé activement à la gestion de projet (élaboration de la politique voyage, promotion du secteur du travail protégé et adapté - ESAT/EA, ...)<br>
+- J'ai appris la rigueur et la tenue de tableaux de bord (homologation fournisseur, recencement des contrats...)<br>
+- J'aimais coordonner la relation client et fournisseur, je ciblais le besoin, recherchais des solutions de production au meilleur rapport cout/délai/qualité, j'étais garante du bon déroulement de la commande et je réglais les éventuels litiges. 
+                </p>
+            </div>
+        </div>
+      
+        <a href="CV-HELENE-SANCHEZ-DIW61.PNG" target="_blank"><i class="fas fa-download"></i>CV</a>
+    </section>
+
+    <section id="contact">
+        <h2 class="titre">Contactez-moi</h2>
+        <div class="trait"></div>
+        <form>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="formulaire en construction">
+            <label for="tel">Téléphone</label>
+            <input type="tel" id="tel" pattern="[0-9]{10}">
+            <label for="email">Mail</label>
+            <input type="email" id="email" placeholder="contacthelenesanchez@gmail.com">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+            <input type="submit" value="En construction">
+        </form>
+    </section>
+
+    <footer>
+        <section id="info" class="flex">
+            <div>
+                <h3>Adresse</h3>
+                <p>1 avenue du Haut Pavé<br>95800 CERGY<br>contacthelenesanchez@gmail.com<br>06 61 84 93 80 </p>
+            </div>
+            <!--ERREUR DANS ICONS
+            <div>
+                <h3>Mes réseaux</h3>
+                <a href="https://www.facebook.com/helene.sanchez1" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/contacthelenesanchez" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div> -->
+        </section>
+        <section id="copyright">
+            <p>Copyright &copy; Hélène Sanchez</p>
+        </section>
+    </footer>
+
+</body>
+</html>
+
